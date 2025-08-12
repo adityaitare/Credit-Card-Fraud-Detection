@@ -1,19 +1,76 @@
-# Credit-Card-Fraud-Detection
-This project focuses on building a machine learning model to detect fraudulent credit card transactions, helping minimize financial risks and improve transaction security. Using real world transaction datasets, the model identifies suspicious activities based on patterns in transaction data.
+💳 Credit Card Fraud Detection using Machine Learning
 
-Key Features:
+This project focuses on detecting fraudulent credit card transactions using machine learning techniques.
+By analyzing transaction data, the model aims to identify suspicious activities and help financial institutions minimize losses from fraudulent behavior.
 
-Data Preprocessing – Removed irrelevant features and handled categorical variables
+🚀 Features
 
-Feature Engineering – Applied One-Hot Encoding using ColumnTransformer
+🧹 Data Preprocessing
 
-Model Training – Implemented Logistic Regression for binary classification
+Dropped irrelevant features
 
-Model Evaluation – Used Confusion Matrix, Accuracy Score, and Classification Report for performance measurement
+Encoded categorical variables using One-Hot Encoding with ColumnTransformer
 
-Data Visualization – Plotted fraud vs. non-fraud insights using Matplotlib & Seaborn
+🌲 Model Training
 
-Tech Stack:
-Python | Pandas | scikit-learn | Matplotlib | Seaborn
+Implemented Logistic Regression for binary classification
 
-Outcome: Achieved reliable accuracy in classifying fraudulent transactions and gained hands-on experience in supervised learning, data transformation, and model evaluation for fraud analytics.
+📊 Model Evaluation
+
+Measured performance using Accuracy Score, Classification Report, and Confusion Matrix
+
+🔍 Visualization
+
+Fraud vs Non-Fraud class distribution
+
+Model performance visualized using Seaborn heatmaps
+
+🛠 Tech Stack
+Python
+
+Pandas
+
+NumPy
+
+scikit-learn
+
+Matplotlib
+
+Seaborn
+
+📂 Dataset
+
+The dataset contains anonymized credit card transactions, with features representing transaction details and a target variable indicating whether the transaction is fraudulent.
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+📊 Model Workflow
+
+Load and explore dataset
+
+Preprocess data (drop irrelevant features, encode categorical variables)
+
+Split dataset into training and testing sets
+
+Train Logistic Regression model
+
+Evaluate model using accuracy, confusion matrix, and classification report
+
+Visualize fraud detection performance
+
+📌 Output Example
+
+Model Accuracy: 0.9472
+
+Confusion Matrix:
+
+[[283  15]
+
+ [ 12 390]]
+ 
+📈 Results
+
+Achieved 94%+ accuracy in detecting fraudulent transactions
+
+Balanced detection of fraud cases with low false positives
+
